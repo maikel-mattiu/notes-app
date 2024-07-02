@@ -54,7 +54,10 @@ function App() {
 					onClick={() => setModalShow(true)}
 					className="button mb-3 "
 				>
-					<Icon.PlusCircle size={24} /> Create Note
+					<Icon.PlusCircle
+						size={250}
+						color="#182b76"
+					/>
 				</button>
 
 				<AddNote
