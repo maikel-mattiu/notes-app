@@ -1,0 +1,11 @@
+.button {
+    border: 2px dashed skyblue;
+    width: 20%;
+    height: 20%;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+body {
+    background-color: lightblue;
+}
