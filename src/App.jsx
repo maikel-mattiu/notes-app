@@ -25,7 +25,7 @@ function App() {
 	}
 
 	const editNote = (id, title, content) => {
-		setEditModal(true)
+		setEditModal(false)
 		const editedNotes = notes.map((note) =>
 			note.id === id ? { ...note, title: title, content: content } : note
 		)
