@@ -34,13 +34,13 @@ function App() {
 
 	const handleEdit = (note) => {
 		setEditModal(true)
-		setIsEditing(true)
 		setCurrentNote(note)
+		setIsEditing(true)
 	}
 	const onHide = () => {
 		setEditModal(false)
-		setIsEditing(false)
 		setCurrentNote({})
+		setIsEditing(false)
 	}
 
 	return (
