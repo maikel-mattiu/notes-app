@@ -1,8 +1,19 @@
-# React + Vite
+# Notes App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A notes taking app created with `React`, `Vite` and `React Bootstrap`.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is created with `Vite`. It's intended to be run locally, on your computer, using Node.js and NPM.
+
+You'll first need to install NPM dependencies, and then run a local development server. Here are the relevant terminal commands:
+
+```bash
+# Install dependencies:
+npm install or npm i
+
+# Run a development server:
+npm run dev
+```
+
+The project can be viewed in the browser by navigating to `http://localhost:5173/`.
